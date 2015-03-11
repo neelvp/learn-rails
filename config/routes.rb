@@ -53,4 +53,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  #Rails.application.routes.draw do 
+  #  root to: redirect('/about.html') end
+  Rails.application.routes.draw do 
+    root to: 'visitors#new' 
+  end
+  
 end
